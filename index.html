@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Inter:wght@200;400;600;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily: {
+            'sans': ['Josefin Sans, sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-800 ">
+  <header
+    class="fixed w-full bg-yellow-500 sm:flex sm:justify-between sm:h-16 sm:items-center sm:pr-24 sm:pl-24 text-lg">
+    <h1 class="font-bold text-2xl text-center sm:p-0 p-1">projek kita</h1>
+    <nav
+      class=" list-none sm:flex lg:w-1/3  md:w-72 sm:w-2/3  sm:justify-between text-center flex justify-center sm-p-0 ">
+      <li class="sm:p-0 p-2  hover:text-white"><a href="">home</a></li>
+      <li class="sm:p-0 p-2  hover:text-white"><a href="">roadmap</a></li>
+      <li class="sm:p-0 p-2  hover:text-white"><a href="">about</a></li>
+      <li class="sm:p-0 p-2  hover:text-white"><a href="">visite know</a></li>
+    </nav>
+
+  </header>
+  <!-- jumbotron -->
+  <section class="sm:ml-24 sm:mr-24 relative top-24 -z-10 mx-10">
+    <h1 class="text-center sm:text-4xl max-sm:text-2xl text-white py-8">Hi there! welcome to <br> <span> projek
+        kita</span></h1>
+    <span class="sm:flex justify-around items-center gap-5">
+      <img src="img/pamplet.jpeg" alt="" class="max-2xl:w-1/2 max-sm:w-8/12 rounded m-auto sm:m-0 shadow-lg">
+      <p class="max-2xl:text-2xl max-lg:text-xl max-md:text-xs text-center sm:my-0 my-4">web projek kita merupakan web
+        yang di buat untuk media pembelajaran bagi warga uhm yang ingin belajar mengenai web development, semoga
+        membantu kita semua, terutama atas nama aulia yang membagongkan <br>sekian:)</p>
+    </span>
+  </section>
+  <!-- crd -->
+  <section class="w-full sm:mt-36 mt-28 sm:px-24 sm:flex gap-3 ">
+    <div
+      class="card bg-yellow-500 sm:w-1/3 p-3 text-center rounded shadow-md  group hover:bg-slate-700 sm:m-0 my-3 w-10/12 m-auto ">
+      <h3 class="text-2xl uppercase box-border">roadmap</h3>
+      <p class="text-sm mb-4 group-hover:text-white">gatau mau nulis apa di sini, intinya klik disini kalau mau ngelihat
+        jalur belajar untuk web</p>
+      <a href="" class="bg-white p-2 rounded group-hover:bg-yellow-500 group-hover:text-white">lanjutkan</a>
+    </div>
+
+    <div
+      class="card bg-yellow-500 sm:w-1/3 p-3 text-center rounded shadow-md  group hover:bg-slate-700 sm:m-0 my-3 w-10/12 m-auto">
+      <h3 class="text-2xl uppercase box-border">profil</h3>
+      <p class="text-sm mb-4 group-hover:text-white">gatau mau nulis apa di sini, intinya klik disini kalau mau ngelihat
+        siapa yg buat ni web</p>
+      <a href="" class="bg-white p-2 rounded group-hover:bg-yellow-500 group-hover:text-white">lanjutkan</a>
+    </div>
+
+    <div
+      class="card bg-yellow-500 sm:w-1/3 p-3 text-center rounded shadow-md  group hover:bg-slate-700 sm:m-0 my-3 w-10/12 m-auto ">
+      <h3 class="text-2xl uppercase box-border">portofolio</h3>
+      <p class="text-sm mb-4 group-hover:text-white">gatau mau nulis apa di sini, intinya klik disini kalau mau ngepoin
+        portofolionya admin xixixi</p>
+      <a href="" class="bg-white p-2 rounded group-hover:bg-yellow-500 group-hover:text-white">lanjutkan</a>
+    </div>
+  </section>
+  <!-- footer -->
+  <section class="footer bg-slate-900 mt-12 flex  gap-5  justify-center sm:px-24 py-24 text-yellow-500 ">
+    <div class="">
+      <a href="" class="block">home</a>
+      <a href="" class="block">roadmap</a>
+      <a href="" class="block">about</a>
+      <a href="" class="block">visite now</a>
+    </div>
+    <div>
+      <a href="" class="block">ig | bang_asman27</a>
+      <a href="" class="block">fb | bang asman</a>
+      <a href="" class="block">wa | bang 081340023345</a>
+      <a href="" class="block">yt | gak ada</a>
+    </div>
+  </section>
+  <footer class="text-white text-center bg-slate-900 pb-8">By salman asmandi | 2023</footer>
+</body>
+
+</html>
